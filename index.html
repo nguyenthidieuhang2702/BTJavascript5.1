@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>BT JavaScript Buổi 5.1</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Bài 1 -->
+    <div class="containe">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Tính thuế thu nhập cá nhân</div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label>Nhập họ tên</label>
+                            <input id="hoTen" type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Tổng thu nhập năm</label>
+                            <input id="tongThuNhap" type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Số người phụ thuộc</label>
+                            <input id="soNguoiPhuThuoc" type="text" class="form-control" />
+                        </div>
+                        </br>
+                        <button id="tinhTienThue" class="btn btn-success">Tính tiền thuế</button>
+                    </div>
+                    <div id="footerTinhTienThue" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr/>
+    <!-- Bài 2 -->
+    <div class="containe">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Tính tiền cáp</div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <select class="form-control" name="">
+                                    <option value="">Chọn loại khách hàng</option>
+                                    <option value="nhaDan">Nhà Dân</option>
+                                    <option value="doanhNghiep">Doanh Nghiệp</option>
+                                </select>
+                            </br>
+                            <div class="form-group">
+                                <label>Nhập mã khách hàng</label>
+                                <input id="maKhachHang" type="text" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>Số kết nối</label>
+                                <input id="soKetNoi" type="text" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>Số kênh cao cấp</label>
+                                <input id="kenhCaoCap" type="text" class="form-control" />
+                            </div>
+                            </br>
+                            <button id="tinhTienCap" class="btn btn-success">Tính tiền cáp</button>
+                        </div>
+                        <div id="footerTinhTiencap" class="card-footer text-muted"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr/>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="./main.js"></script>
+</body>
+
+</html>
